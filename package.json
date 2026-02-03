@@ -1,5 +1,6 @@
 {
   "name": "adet-fe-bsit21",
+<<<<<<< HEAD
   "version": "0.0.0",
   "scripts": {
     "ng": "ng",
@@ -42,3 +43,35 @@
     "typescript": "~5.4.2"
   }
 }
+=======
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/RonMichaelDeloso/adet-fe-bsit21.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/RonMichaelDeloso/adet-fe-bsit21/issues"
+  },
+  "homepage": "https://github.com/RonMichaelDeloso/adet-fe-bsit21#readme",
+  "dependencies": {
+    "@angular/cli": "^21.1.2",
+    "@angular/common": "^21.1.2",
+    "@angular/compiler": "^21.1.2",
+    "@angular/core": "^21.1.2",
+    "@angular/platform-browser": "^21.1.2",
+    "@angular/platform-browser-dynamic": "^21.1.2",
+    "rxjs": "^7.8.2",
+    "typescript": "^5.9.3",
+    "zone.js": "^0.16.0"
+  }
+}
+>>>>>>> 22b02a8026cb8c28ea68bafba570ce205a49c2a1
