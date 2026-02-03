@@ -6,9 +6,13 @@
   },
   "newProjectRoot": "projects",
   "projects": {
-    "adet-fe-bsit21": {
+    "adet-fe-bsit21-new": {
       "projectType": "application",
-      "schematics": {},
+      "schematics": {
+        "@schematics/angular:component": {
+          "style": "scss"
+        }
+      },
       "root": "",
       "sourceRoot": "src",
       "prefix": "app",
@@ -18,6 +22,7 @@
           "options": {
             "browser": "src/main.ts",
             "tsConfig": "tsconfig.app.json",
+            "inlineStyleLanguage": "scss",
             "assets": [
               {
                 "glob": "**/*",
@@ -25,7 +30,7 @@
               }
             ],
             "styles": [
-              "src/styles.css"
+              "src/styles.scss"
             ]
           },
           "configurations": {
@@ -56,10 +61,10 @@
           "builder": "@angular/build:dev-server",
           "configurations": {
             "production": {
-              "buildTarget": "adet-fe-bsit21:build:production"
+              "buildTarget": "adet-fe-bsit21-new:build:production"
             },
             "development": {
-              "buildTarget": "adet-fe-bsit21:build:development"
+              "buildTarget": "adet-fe-bsit21-new:build:development"
             }
           },
           "defaultConfiguration": "development"
